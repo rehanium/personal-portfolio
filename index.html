@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script src="https://kit.fontawesome.com/15f48457a1.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
 	<title>Portfolio</title>
 </head>
 <body>
-<nav>
+<nav id="navbar">
 	<ul>
-		<li class="nav-list"><a href="#introduction">About</a></li>
-		<li class="nav-list"><a href="#work">Work</a></li>
+		<li class="nav-list"><a href="#welcome-section">About</a></li>
+		<li class="nav-list"><a href="#projects">Work</a></li>
 		<li class="nav-list"><a href="#contact">Contact</a></li>
 	</ul>
 </nav>
-<section id="introduction">
+<section id="welcome-section">
 	
 	<h1>I am Rehan</h1>
 	<p id="tag">a developer</p>
 </section>
-<section id="work">
-	<h2>My Projects</h2>
+<section id="projects">
+	<h2 id="project-headline">My Projects</h2>
 	<div class="projects-grid">
 		<a class="project" href="https://rehanium.github.io/fcc-tribute/" target="_blank">
 			<img class="project-image" src="1.png" >
@@ -39,10 +40,16 @@
 	</div>
 	<div class="contact-links">
 		<a id="profile-link" href="https://github.com/rehanium" target="_blank">
-			Github
+			<i class="fab fa-github"></i>
+			<span class="link-text">Github</span>
 		</a>
-		<a id="profile-link" href="https://twitter.com/Rehanium" target="_blank">
-			Twitter
+		<a class="profile-link" href="https://twitter.com/Rehanium" target="_blank">
+			<i class="fab fa-twitter"></i>
+			<span class="link-text">Twitter</span>
+		</a>
+		<a class="profile-link" href="mailto:m.rehan1016@gmail.com">
+			<i class="fas fa-at"></i>
+			<span class="link-text">Email</span>
 		</a>
 	</div>
 </section>
